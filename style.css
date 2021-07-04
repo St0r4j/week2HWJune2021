@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+}
+
+#frame {
+    background-color: white;
+    width: 500px;
+    height: 985px;
+    margin: 0px auto;
+}
+
+#window {
+    background-color: white;
+    width: 400px;
+    height: 985px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+    margin: 15px auto;
+}
+
+#imageSlider0 {
+    display: flex;
+    transform: translateX(-0000px);
+    animation: anime0 20s ease-in-out infinite;
+}
+
+@keyframes anime0 {
+    0% {
+        transition: margin-right 10s ease-in-out; transform: translateX(0px);
+    }
+    9% {
+        transition: margin-right 10s ease-in-out; transform: translateX(-400PX);
+    }
+    18% {
+        transition: margin-right 10s ease-in-out; transform: translateX(-800px);
+    }
+    27% {
+        transition: margin-right 10s ease-in-out; transform: translateX(-1200PX);
+    }
+    36% {
+        transition: margin-right 10s ease-in-out; transform: translateX(-1600px);
+    }
+    45% {
+        transition: margin-right 10s ease-in-out; transform: translateX(-2000PX);
+    }
+    54% {
+        transition: margin-right 10s ease-in-out; transform: translateX(-2000PX);
+    }
+    63% {
+        transition: margin-right 10s ease-in-out; transform: translateX(-1600px);
+    }
+    72% {
+        transition: margin-right 10s ease-in-out; transform: translateX(-1200PX);
+    }
+    81% {
+        transition: margin-right 10s ease-in-out; transform: translateX(-800px);
+    }
+    90% {
+        transition: margin-right 10s ease-in-out; transform: translateX(-400PX);
+    }
+    100% {
+        transition: margin-right 10s ease-in-out; transform: translateX(-0000PX);
+    }
+
+}
+
+#imageSlider1 {
+    display: flex;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+
+}
+
+
+#buttons0 {
+    text-align: center;
+}
+
