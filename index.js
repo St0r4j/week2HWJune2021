@@ -2,7 +2,7 @@
         let position = 0;
            
         const nextSlide = function () {   // block scoped
-            
+        console.log((position / 400) * -1)
             if (position <= -1600) {
                 position = 400
             }
@@ -15,6 +15,12 @@
             imageSlider1.style.transform = `translateX(${position}px)`;
 
         }
+
+        setTimeout(nextSlide, 1000);
+        setTimeout(nextSlide, 1000);
+        setTimeout(nextSlide, 1000);
+        setTimeout(nextSlide, 1000);
+        setTimeout(previousSlide, 1000);
 
        const previousSlide = function () {   // block scoped
 
